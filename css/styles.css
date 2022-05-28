@@ -880,3 +880,16 @@ a {
 .price {
   cursor: pointer;
 }
+
+/* Submit Areas */
+.submitmessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.submitmessage img {
+  border-radius: 100px;
+}

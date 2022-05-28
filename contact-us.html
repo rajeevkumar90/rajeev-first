@@ -36,19 +36,19 @@
         <h2 class="block__heading">Sign up now!</h2>
         <p>Get updates & great offers</p>
       </header>
-      <div class="input-group">
-        <input
-          type="text"
-          class="input"
-          placeholder="Enter domain name here...."
-        />
-        <button class="btn btn--accent">
-          <svg class="icon icon--white">
-            <use xlink:href="images/sprite.svg#search"></use>
-          </svg>
-          Search
-        </button>
-      </div>
+
+      <form id="my-form" action="https://formspree.io/f/mzbooaqw" method="POST">
+        <div class="input-group">
+          <input type="text" name="message" class="input" placeholder="Name" />
+        </div>
+        <div class="input-group">
+          <input type="email" name="email" class="input" placeholder="Email" />
+        </div>
+        <div class="submitmessage">
+          <button id="my-form-button" class="btn btn--outline">Submit</button>
+          <p id="my-form-status"></p>
+        </div>
+      </form>
     </section>
 
     <footer class="block block--dark footer">
@@ -125,5 +125,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="./js/form.js"></script>
   </body>
 </html>
