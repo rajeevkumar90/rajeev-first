@@ -2,11 +2,11 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #ff5825;
-        stroke: #ff5825;
-        mix-blend-mode: lighten;
+        stroke: #fff;
+        fill: #fff;
+        transform: scale(1.5,1)
       }
     </style>
   </defs>
-  <path id="Polygon_1_copy_2" data-name="Polygon 1 copy 2" class="cls-1" d="m 20 15 C 41 16 40 23 20 30 L 20 45 Z M 20 30 l 15 15 Z"/>
+  <path id="Polygon_1_copy_2" data-name="Polygon 1 copy 2" class="cls-1" d="m 20 15 C 86 25 86 25 20 30 L 20 45 Z M 20 30 l 15 15 Z M 45 36 A 1 1 0 0 0 38 45 L 45 45 Z M 48 36 L 73 36 M 54 36 V 42 M 56 36 L 63 36 M 56 36 L 56 46 M 63 46 L 56 46 M 56 42 L 62 42 M 66 36 L 73 36 M 66 46 L 66 36 M 74 46 L 66 46 M 71 42 L 66 42 M 77 36 L 80 46 M 85 36 L 80 46 M 48 42 A 1 1 0 0 0 54 42"/>
 </svg>
